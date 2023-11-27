@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "rootDir": "./src",
+    "outDir": "./build",
+    "moduleResolution": "node",
+  },
+  "include": [
+    "src/**/*.ts" // todos os arquivos dentro da pasta src
+  ],
+  "exclude": [
+    "node_modules" // exclui a pasta node_modules
+  ]
+}
